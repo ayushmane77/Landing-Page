@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='w-full pl-5 pt-5 sticky top-0 backdrop-blur-md z-50 mb-5'>
+      <div className='w-full px-4 sm:px-0 pt-5 sticky top-0 backdrop-blur-md z-50 mb-5'>
         <nav className='mx-auto flex justify-between items-center '>
           <div>
             <img src="/logo.svg" alt="logo" className='hover:scale-105 transition' />
