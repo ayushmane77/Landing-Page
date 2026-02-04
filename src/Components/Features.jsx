@@ -25,18 +25,18 @@ const Features = () => {
             </div>
 
 
-            <div className='flex flex-wrap justify-center w-4/5 mx-auto p-1'>
+            <div className='flex flex-wrap justify-center w-4/5 max-sm:w-[95%] mx-auto p-1'>
 
                 {/** CARD 1 */}
                 <div className="
                 feature-card
-                w-[30%] max-sm:w-4/5
+                w-[30%] max-sm:w-full
                 flex flex-col gap-3 justify-center p-6
                 border border-gray-800/40 max-sm:border-0
                 transition-all duration-300
                 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]
                  hover:border-blue-500/40
-                rounded-xl">
+                rounded-2xl">
 
                     <div className="mx-auto grid place-items-center size-16 rounded-full bg-transparent border border-white">
                         <img className="mx-auto" src="/icon-01.svg" />
@@ -50,13 +50,13 @@ const Features = () => {
                 {/** CARD 2 */}
                 <div className="
                 feature-card
-                w-[30%] max-sm:w-4/5
+                w-[30%] max-sm:w-full
                 flex flex-col gap-3 justify-center p-6
                 border border-gray-800/40 max-sm:border-0
                 transition-all duration-300
                 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]
                  hover:border-blue-500/40
-                rounded-xl">
+                rounded-2xl">
 
                     <div className="mx-auto grid place-items-center size-16 rounded-full bg-transparent border border-white">
                         <img className="mx-auto" src="/icon-02.svg" />
@@ -68,13 +68,13 @@ const Features = () => {
                 {/** CARD 3 */}
                 <div className="
                 feature-card
-                w-[30%] max-sm:w-4/5
+                w-[30%] max-sm:w-full
                 flex flex-col gap-3 justify-center p-6
                 border border-gray-800/40 max-sm:border-0
                 transition-all duration-300
                 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]
                  hover:border-blue-500/40
-                rounded-xl">
+                rounded-2xl">
 
                     <div className="mx-auto grid place-items-center size-16 rounded-full bg-transparent border border-white">
                         <img className="mx-auto" src="/icon-03.svg" />
@@ -86,13 +86,13 @@ const Features = () => {
                 {/** CARD 4 */}
                 <div className="
                 feature-card
-                w-[30%] max-sm:w-4/5
+                w-[30%] max-sm:w-full
                 flex flex-col gap-3 justify-center p-6
                 border border-gray-800/40 max-sm:border-0
                 transition-all duration-300
                 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]
-                hover:border-blue-500/40
-                rounded-xl">
+                 hover:border-blue-500/40
+                rounded-2xl">
 
                     <div className="mx-auto grid place-items-center size-16 rounded-full bg-transparent border border-white">
                         <img className="mx-auto" src="/icon-04.svg" />
@@ -104,13 +104,13 @@ const Features = () => {
                 {/** CARD 5 */}
                 <div className="
                 feature-card
-                w-[30%] max-sm:w-4/5
+                w-[30%] max-sm:w-full
                 flex flex-col gap-3 justify-center p-6
                 border border-gray-800/40 max-sm:border-0
                 transition-all duration-300
                 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]
-                hover:border-blue-500/40
-                rounded-xl">
+                 hover:border-blue-500/40
+                rounded-2xl">
 
                     <div className="mx-auto grid place-items-center size-16 rounded-full bg-transparent border border-white">
                         <img className="mx-auto" src="/icon-05.svg" />
@@ -122,13 +122,13 @@ const Features = () => {
                 {/** CARD 6 */}
                 <div className="
                 feature-card
-                w-[30%] max-sm:w-4/5
+                w-[30%] max-sm:w-full
                 flex flex-col gap-3 justify-center p-6
                 border border-gray-800/40 max-sm:border-0
                 transition-all duration-300
                 hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(59,130,246,0.3)]
-                hover:border-blue-500/40
-                rounded-xl">
+                 hover:border-blue-500/40
+                rounded-2xl">
 
                     <div className="mx-auto grid size-16 place-items-center rounded-full bg-transparent border border-white">
                         <img className="mx-auto" src="/icon-06.svg" />
